@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="style.css" rel="stylesheet">
 </head>
-    <body class="bg-[#181819]">
-        <header>
-            <nav class="border-b-2 border-[#e5e8eb] items-center flex p-5 justify-between">
+<body class="bg-[#181819]">
+    <header>
+        <nav class="border-b-2 border-[#e5e8eb] items-center flex p-5 justify-between">
             <div class="text-4xl font-bold text-white w-full flex">Gym <p class="pl-2 pr-2 bg-[#ff8c00] text-black rounded-md">hub</p></div>
             <ul class="flex flex-cols justify-end gap-6 text-white w-full text-xl mr-10">
                 <li>Home</li>
@@ -17,6 +17,81 @@
             <div class="bg-[#ff8c00] flex items-center justify-center w-50 h-10 ml-5 mr-2 rounded-md">Sing up</div>
             <div class="bg-[#676767] flex items-center justify-center w-50 h-10 rounded-md text-white">Login</div>
         </nav>
-        </header>
-    </body>
+    </header>
+    <main>
+        <div id="slider" class="flex overflow-x-auto snap-x snap-mandatory scroll-smooth border-0 rounded-2xl ml-5 mr-5 mt-5">
+        <div class="snap-center shrink-0 w-full h-120">
+            <img src="/img/gym hub-2.png" alt="Slide 1" class="w-full h-full object-cover">
+        </div>
+        <div class="snap-center shrink-0 w-full h-120">
+            <img src="/img/gym hub-3.png" alt="Slide 2" class="w-full h-full object-cover">
+        </div>
+        <div class="snap-center shrink-0 w-full h-120">
+            <img src="/img/gym hub-1.png" alt="Slide 3" class="w-full h-full object-cover">
+        </div>
+        <div class="snap-center shrink-0 w-full h-120">
+            <img src="/img/gym hub-4.png" alt="Slide 3" class="w-full h-full object-cover">
+        </div>
+        <div class="snap-center shrink-0 w-full h-120">
+            <img src="/img/gym hub-5.png" alt="Slide 3" class="w-full h-full object-cover">
+        </div>
+        </div>
+        <div class="text-white text-3xl m-7 font-bold mt-20">Find your perfect Trainer</div>
+
+        <section>
+
+            <!-- navigetion bar -->
+            <nav class="flex justify-between items-center p-3 rounded-md mx-5 bg-[#7e7e7e] border-4 border-[#ff8c00]">
+                <ul class="flex gap-6 items-center pl-2">
+                    <li class="flex items-center gap-2 cursor-pointer font-bold hover:opacity-75 transition"><img src="/img/slim-body.png" alt="" class="w-8 h-8">Weight Loss</li>
+                    <li class="flex items-center gap-2 cursor-pointer font-bold hover:opacity-75 transition"><img src="/img/building-2.png" alt="" class="w-8 h-8">Muscle Building</li>
+                    <li class="flex items-center gap-2 cursor-pointer font-bold hover:opacity-75 transition"><img src="/img/treadmill.png" alt="" class="w-8 h-8">Cardio</li>
+                </ul>
+                <div class="relative mr-2 flex">
+                    <input type="text" placeholder="Search..." class="pl-9 pr-4 py-2 rounded-md focus:outline-none w-64 bg-[#e5e8eb] border-2 focus:border-[#676767]">
+                    <svg class="w-5 h-5 absolute left-2 top-1/2 transform -translate-y-1/2 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24 "><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                    <div class="bg-[#ff8c00] p-3 rounded-md text-black cursor-pointer ml-4 font-bold">Search</div>
+                </div>
+            </nav>
+
+            <!-- Top Trainers Rated -->
+            <div class="text-white text-3xl m-7 font-bold mt-20">Top Trainers Rated</div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-5 justify-items-center">
+                <div class="relative flex w-full max-w-[20rem] flex-col rounded-xl bg-[#2d2d2f] bg-clip-border text-white shadow-md mt-10 hover:scale-105 transition-all duration-300 border-4 border-[#ff8c00]">
+                    <div class="relative mx-4 -mt-6 h-50 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-[#7e7e7e] bg-gradient-to-r flex items-center justify-center"><img src="/img/Gemini_Generated_Image_ujmeqkujmeqkujme.png" alt=""></div>
+                    <div class="p-6">
+                    <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">content</h5>
+                    <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ex suscipit similique quisquam debitis at atque harum velit dolor necessitatibus deserunt dolore repellat quibusdam iste, nostrum magni fugiat voluptas ad!</p>
+                    </div>
+                </div>
+
+                <div class="relative flex w-full max-w-[20rem] flex-col rounded-xl bg-[#2d2d2f] bg-clip-border text-white shadow-md mt-10 hover:scale-105 transition-all duration-300 border-4 border-[#ff8c00]">
+                    <div class="relative mx-4 -mt-6 h-80 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-[#7e7e7e] bg-gradient-to-r flex items-center justify-center"><img src="/img/รูป-2.png" alt=""></div>
+                    <div class="p-6">
+                    <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">content</h5>
+                    <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque corrupti repudiandae laudantium sunt aliquam temporibus inventore rem velit accusantium harum voluptate, excepturi, tempora, veritatis voluptas culpa quaerat assumenda sint ab?</p>
+                    </div>
+                </div>
+
+                <div class="relative flex w-full max-w-[20rem] flex-col rounded-xl bg-[#2d2d2f] bg-clip-border text-white shadow-md mt-10 hover:scale-105 transition-all duration-300 border-4 border-[#ff8c00]">
+                    <div class="relative mx-4 -mt-6 h-80 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-[#7e7e7e] bg-gradient-to-r flex items-center justify-center"><img src="/img/Image-11.jpg" alt=""></div>
+                    <div class="p-6">
+                    <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">content</h5>
+                    <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab vero voluptatibus voluptate perspiciatis possimus repellendus, corrupti in aspernatur deleniti omnis aperiam modi dolorem, doloremque, natus blanditiis cumque minus? Numquam, dicta.</p>
+                    </div>
+                </div>
+
+                <div class="relative flex w-full max-w-[20rem] flex-col rounded-xl bg-[#2d2d2f] bg-clip-border text-white shadow-md mt-10 hover:scale-105 transition-all duration-300 border-4 border-[#ff8c00]">
+                    <div class="relative mx-4 -mt-6 h-75 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-[#7e7e7e] bg-gradient-to-r flex items-center justify-center"><img src="/img/รูป-1.jpg" alt=""></div>
+                    <div class="p-6">
+                    <h5 class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">content</h5>
+                    <p class="block font-sans text-base font-light leading-relaxed text-inherit antialiased">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere tempore eaque labore rerum eius adipisci, illum cupiditate? Iure eius autem, sequi explicabo illo reprehenderit sit magnam repellendus illum neque. Itaque?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="scrip.js"></script>
+</body>
 </html>
